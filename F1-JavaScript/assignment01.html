@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+<title>Guessing Game </title> 
+<body>
+<!--       -->
+<script> 
+
+	var testNumber = 75 ;
+	var guess;
+    	guess     = prompt("Find the random number between 1 and 100");
+
+	if        ( guess >  testNumber) {
+		alert( "Too high!" );  //alert("Getting near the best!");
+		
+	} else if ( guess <  testNumber) {
+		alert( "Too low!"  );
+		
+	} else if ( guess == testNumber) {
+		alert( "Yeah, you found it! " + testNumber );
+
+	} else {
+		// You should never get here...
+		alert( "404: Error Error Error" );
+	}
+
+</script>
+</body>
+</html>
